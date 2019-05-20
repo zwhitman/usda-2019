@@ -86,6 +86,11 @@
           <section>
             design process
           </section>
+          <section
+            data-background-image="img/design-process.png"
+            data-background-size="contain"
+            data-background-repeat="no-repeat"
+          ></section>
           <section>
             user research
           </section>
@@ -93,11 +98,155 @@
             data-background-image="img/user-axes.png"
             data-background-size="1100px"
           ></section>
-          <section
-            data-background-image="img/design-process.png"
-            data-background-size="contain"
-            data-background-repeat="no-repeat"
-          ></section>
+
+          <section>
+            who are the customers
+          </section>
+          <section>
+            <ul style="font-size:.7em">
+              <li>
+                <span
+                  style="background-color:#06BA63;color:#102d51;padding:0px 20px"
+                >
+                  Green
+                </span>
+                &nbsp Developers or people who want to do advanced modeling
+                and/or programming with the data
+              </li>
+              <li>
+                <span
+                  style="background-color:#16d8b3;color:#102d51;padding:0px 20px"
+                  >Lime
+                </span>
+                &nbsp AFF users who want to access tables and mainly volume
+                data, and potentially build something or incorporate a layer
+                into their own tool
+              </li>
+              <li>
+                <span
+                  style="background-color:#F6FEAA;color:#102d51;padding:0px 20px"
+                  >Yellow</span
+                >
+                &nbsp AFF users who want to download volume data and then run
+                stats and/or manipulate data
+              </li>
+              <li>
+                <span
+                  style="background-color:#FBB13C;color:#102d51;padding:0px 20px"
+                  >Orange</span
+                >
+                &nbsp Show me the #s on the site or let me download just the
+                data I need but I'm not that technical
+              </li>
+              <li>
+                <span
+                  style="background-color:#2D93AD;color:#102d51;padding:0px 20px"
+                  >Blue</span
+                >
+                &nbsp Small scale, informal data consumer, not familiar with
+                Census data holdings and just wants to see raw number on the
+                site
+              </li>
+            </ul>
+          </section>
+          <section>
+            <ol>
+              <li>
+                How are different user types currently searching for and
+                interacting with data?
+              </li>
+              <li>
+                What defines the “right” result format and content for different
+                user types?
+              </li>
+              <li>
+                How can we help folks discover Census data?
+              </li>
+            </ol>
+          </section>
+          <section>
+            <table style="width:100%;font-size:.5em">
+              <tr>
+                <th>User cluster</th>
+                <th>Map needs/preferences</th>
+                <th>Table needs/preferences</th>
+              </tr>
+              <tr>
+                <td>
+                  <span
+                    style="background-color:#06BA63;color:#102d51;padding:0px 20px"
+                    >Green</span
+                  >
+                </td>
+                <td>
+                  Likes the option for interactive maps, but still want source
+                  data/developer resources page
+                </td>
+                <td><strong>Not interested in tables</strong></td>
+              </tr>
+              <tr>
+                <td>
+                  <span
+                    style="background-color:#16d8b3;color:#102d51;padding:0px 20px"
+                    >Lime</span
+                  >
+                </td>
+                <td>
+                  Map is a nice to have, but not what they’re looking for; may
+                  explore a map if easy to use
+                </td>
+                <td>Uses tables, downloads and removes extraneous info</td>
+              </tr>
+              <tr>
+                <td>
+                  <span
+                    style="background-color:#F6FEAA;color:#102d51;padding:0px 20px"
+                    >Yellow</span
+                  >
+                </td>
+                <td>Maps with downloadable shapefiles would be useful</td>
+                <td>
+                  Uses tables, downloads and removes extraneous info.
+                  <strong>Needs customizable tables</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span
+                    style="background-color:#FBB13C;color:#102d51;padding:0px 20px"
+                    >Orange</span
+                  >
+                </td>
+                <td>No strong need for maps</td>
+                <td><strong>Needs customizable tables</strong></td>
+              </tr>
+              <tr>
+                <td>
+                  <span
+                    style="background-color:#2D93AD;color:#102d51;padding:0px 20px"
+                    >Blue</span
+                  >
+                </td>
+                <td>
+                  Likes ability to view color coded map with their boundary of
+                  interest outlined, along side raw number, with comparison to
+                  similar places
+                </td>
+                <td>
+                  <strong>Not interested in tables</strong>, but may contain the
+                  answer MOE, median, mean, terms like “imputed” not helpful
+                  Will copy down info needed from tables manually
+                </td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            implementation
+          </section>
+          <section>
+            start with the user, standardize everything, and then automate as
+            much as possible.
+          </section>
           <section
             data-background-image="img/app-process.png"
             data-background-size="contain"
@@ -284,6 +433,191 @@
           <section
             data-background-image="img/web.png"
             data-background-size="1100px"
+          ></section>
+        </section>
+
+        <section>
+          <section>
+            But what about the fundamental question:
+            <hr />
+            <span class="italics">
+              why do users use our products?
+            </span>
+          </section>
+          <section>
+            From our analytics we know some products are more popular than
+            others.
+            <hr />
+            DP tables are popular.
+            <br />
+            so are GCTs.
+          </section>
+          <section>
+            Ok - why?
+          </section>
+          <section>
+            it's the context
+            <hr />
+            <!-- Who cares what the population is in one place if it's not in contrast to its siblings? Far more powerful to understand the distribution than a datum. -->
+            <ul>
+              <li>
+                they have mass appeal
+              </li>
+              <li>
+                they are easily digestable
+              </li>
+              <li>
+                DP tables provide a nice intro to a topic
+              </li>
+              <li>
+                GCTs are essentially a thematic map.
+              </li>
+              <li>
+                Also explains GRTs.
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            but they aren't the easiest to discover, access, or consume
+          </section>
+        </section>
+
+        <section>
+          <section>
+            so why are our products hard to discover?
+          </section>
+
+          <section>
+            we get wrapped up in the delivery mechanisms
+          </section>
+          <section>
+            we need to think outside the table
+          </section>
+          <section>
+            ok, then what about access and consume?
+          </section>
+          <section>the landscape has shifted</section>
+          <section>
+            compute cycles are a commodity.
+          </section>
+          <section>
+            a general users now have access to hardware and software that was
+            previously only available on a supercomputer.
+          </section>
+          <section>
+            data transactions are fast.
+          </section>
+          <section>
+            it's cheaper to just pull everything and see what's up
+          </section>
+          <section>
+            tooling has changed
+          </section>
+          <section>
+            languages have evolved
+            <hr />
+            R/Python/js/julia/sas
+          </section>
+          <section>
+            storage has evolved
+            <hr />
+            large/cheap/linked data stores
+          </section>
+          <section>
+            workflows have evolved
+            <hr />
+            IDEs/collaboration/workbooks get better every day
+          </section>
+          <section>
+            methods have changed
+            <hr />
+            unsupervised learning methods are the new hotness so now everyone is
+            data starved.
+          </section>
+          <section>
+            in their documentation, tensorflow actually points to a census data
+            set as a starter guide.
+          </section>
+          <section>
+            BUT...
+          </section>
+          <section>
+            <img
+              class="stretch"
+              style="border:none"
+              src="./img/tensor.jpg"
+              alt=""
+            />
+          </section>
+          <section>
+            <img
+              class="stretch"
+              style="border:none"
+              src="./img/tensor-zoom.jpg"
+              alt=""
+            />
+          </section>
+          <section>
+            they point to a 3rd party for the data; and
+            <br />
+            include a cleaning script; AND
+            <br />
+            var mappings.
+          </section>
+        </section>
+
+        <section>
+          <section>
+            but here's the kicker
+          </section>
+          <section>
+            we can only do so much
+          </section>
+          <section>
+            so we need enable others
+          </section>
+          <section>
+            third party devs are first class citizens
+            <img
+              class="stretch"
+              style="border:none"
+              src="./img/devexLanding.png"
+              alt=""
+            />
+          </section>
+          <section>
+            we are API first
+            <br />
+            <img
+              class="stretch"
+              style="border:none"
+              src="./img/api-first.png"
+              alt=""
+            />
+          </section>
+          <section>
+            to get them working with data faster
+            <img
+              class="stretch"
+              style="border:none"
+              src="./img/devexQueryBuilder.png"
+              alt=""
+            />
+          </section>
+          <section>
+            we want to help them with examples
+            <img
+              class="stretch"
+              style="border:none"
+              src="./img/devexSamplesHome.png"
+              alt=""
+            />
+          </section>
+          <section>and publish our standards</section>
+          <section
+            data-background-iframe="https://xdgov.github.io/data-design-standards/"
+            data-background-interactive
           ></section>
         </section>
 
